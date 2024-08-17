@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(114, 84, 43);
+  font-family: cursive;
+  color: wheat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(53, 64, 74);
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.conversion-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.currency-input input {
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: wheat;
+}
+
+.currencies {
+  display: flex;
+}
+
+.currencies select {
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.currencies select:focus {
+  border-color: #0066cc;
+  background-color: rgb(137, 136, 134);
+  outline: none;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+  border: 2px solid rgb(114, 84, 43);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
